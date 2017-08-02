@@ -21,10 +21,14 @@
     "webpack-hot-middleware": "^2.18.2"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "express": "^4.15.3",
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-router": "^2.5.0"
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
   }
 }
