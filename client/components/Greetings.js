@@ -1,8 +1,14 @@
 import React from 'react';
 
-export default () => {
+class Greetings extends React.Component {
 
-    return (
-      <h1>Hello! from react..</h1>
-    )
+    render() {
+      return (
+        <div className="jumbotron">
+            <h1>Hello!</h1>
+        </div>
+      );
+    }
 }
+
+export default Greetings;
